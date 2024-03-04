@@ -1,0 +1,38 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@instantdb/admin@0.8.1": "npm:@instantdb/admin@0.8.1"
+    },
+    "npm": {
+      "@instantdb/admin@0.8.1": {
+        "integrity": "sha512-CGLCWGx+AlMMg89GsuEqhpF7VpdF+LjwM/5IBgSYbZO9CXljpzW2qXOg7wVCEx1fd+VsDUlcs73I0WYAhDF53Q==",
+        "dependencies": {
+          "@instantdb/core": "@instantdb/core@0.8.1",
+          "uuid": "uuid@9.0.1"
+        }
+      },
+      "@instantdb/core@0.8.1": {
+        "integrity": "sha512-LC8eiAeYO7GeZyB5H7xdXENVm75NfmwUCUV8RccRsXW//KBrGDz07cx9Lz8lgYtttSTBAlY8Hbu+5Qg4G0RQew==",
+        "dependencies": {
+          "immer": "immer@9.0.14",
+          "object-hash": "object-hash@3.0.0",
+          "uuid": "uuid@9.0.1"
+        }
+      },
+      "immer@9.0.14": {
+        "integrity": "sha512-ubBeqQutOSLIFCUBN03jGeOS6a3DoYlSYwYJTa+gSKEZKU5redJIqkIdZ3JVv/4RZpfcXdAWH5zCNLWPRv2WDw==",
+        "dependencies": {}
+      },
+      "object-hash@3.0.0": {
+        "integrity": "sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==",
+        "dependencies": {}
+      },
+      "uuid@9.0.1": {
+        "integrity": "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
